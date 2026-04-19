@@ -11,6 +11,30 @@ A curated list of awesome topological quantum error correction resources.
 
 ## Papers
 
+#### History
+
+Selected chronological references for the development of topological quantum
+error correction.
+
+- [Quantum codes on a lattice with boundary](https://arxiv.org/abs/quant-ph/9811052) - The toric code, memory only.
+- [Topological quantum memory](https://arxiv.org/abs/quant-ph/0110143) - Computation using a stack of tori with transversal interactions.
+- [A fault-tolerant one-way quantum computer](https://arxiv.org/abs/quant-ph/0510135) - Computation using a 3D cluster state with only local interactions in 3D.
+- [Fault-tolerant quantum computation with high threshold in two dimensions](https://arxiv.org/abs/quant-ph/0610082) and [Topological fault-tolerance in cluster state quantum computation](https://arxiv.org/abs/quant-ph/0703143) - Build the 3D cluster state layer by layer so only a bi-layer of locally connected 2D hardware is required.
+- [High threshold universal quantum computation on the surface code](https://arxiv.org/abs/0803.0272) - A version of the 2D scheme reduced to a single nearest-neighbor-coupled 2D layer of hardware; at this point everything was based on braiding holes (defects) in the surface.
+- [Topological cluster state quantum computing](https://arxiv.org/abs/0805.3202) - A simplified version of the 3D cluster state scheme.
+- [Quantum computing with nearest neighbor interactions and error rates over 1%](https://arxiv.org/abs/1009.3686) and [Towards practical classical processing for the surface code](https://arxiv.org/abs/1110.5133) - Beginning to learn how to decode the surface code better.
+- [Surface code quantum computing by lattice surgery](https://arxiv.org/abs/1111.4022) - Original proposal for lattice surgery on an unrotated surface code.
+- [Proof of finite surface code threshold for matching](https://arxiv.org/abs/1206.0800) - Proof that high levels of error can be suppressed exponentially using the surface code.
+- [Surface codes: Towards practical large-scale quantum computation](https://arxiv.org/abs/1208.0928) - Comprehensive review of defect-based surface code quantum computation.
+- [A bridge to lower overhead quantum computation](https://arxiv.org/abs/1209.0510) - Compressing defect-based TQEC.
+- [Time-optimal quantum computation](https://arxiv.org/abs/1210.4626) - Shows that TQEC-based computation is not inherently slow given sufficient qubits.
+- [Minimum weight perfect matching of fault-tolerant topological quantum error correction in average O(1) parallel time](https://arxiv.org/abs/1307.1740) - Scalable parallel decoding.
+- [Optimal complexity correction of correlated errors in the surface code](https://arxiv.org/abs/1310.0863) - Using information about correlated errors to decode better.
+- [Logic gates at the surface code threshold: Superconducting qubits poised for fault-tolerant quantum computing](https://arxiv.org/abs/1402.4848) - Early experimental work at the surface code threshold error rate.
+- [Low overhead quantum computation using lattice surgery](https://arxiv.org/abs/1808.06709), [Efficient magic state factories with a catalyzed |CCZ&gt; to 2|T&gt; transformation](https://arxiv.org/abs/1812.01238), and [Flexible layout of surface code computations using AutoCCZ states](https://arxiv.org/abs/1905.08916) - Lattice surgery using the rotated surface code.
+- [Suppressing quantum errors by scaling a surface code logical qubit](https://arxiv.org/abs/2207.06431) and [Quantum error correction below the surface code threshold](https://arxiv.org/abs/2408.13687) - Experimental demonstration of a below-threshold surface code, from the initial milestone to the current state of the art.
+- [Surface code off-the-hook: diagonal syndrome-extraction scheduling](https://arxiv.org/abs/2602.09099) - Latest circuits for the surface code.
+
 #### Simulator
 
 - [Stim: a fast stabilizer circuit simulator](https://arxiv.org/abs/2103.02202)
@@ -103,7 +127,7 @@ error when scaling surface code from distance 3 to 5.
 
 #### Automation tool
 
-- [tqec](https://github.com/QCHackers/tqec) - Design automation tool for tqec.
+- [tqec](https://github.com/tqec/tqec) - State-of-the-art quantum compilation for the surface code.
 
 - [LaSsynth](https://zenodo.org/records/11210072) - A synthesizer for lattice surgery subroutines.
 
@@ -144,4 +168,3 @@ plenty of TQEC related questions are involved.
 - [SketchUp](https://www.sketchup.com/app) - Useful tool to make the space-time diagram for topological logical computation.
 - [Algorithmic Assertions](https://algassert.com/) - Craig Gidney's blogs about computer science and quantum computing, where the topic
 of TQEC is involved.
-
