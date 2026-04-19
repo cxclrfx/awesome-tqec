@@ -38,6 +38,8 @@ error correction.
 #### Simulator
 
 - [Stim: a fast stabilizer circuit simulator](https://arxiv.org/abs/2103.02202)
+- [SOFT: a high-performance simulator for universal fault-tolerant quantum circuits](https://arxiv.org/abs/2512.23037)
+- [Tsim: Fast Universal Simulator for Quantum Error Correction](https://arxiv.org/abs/2604.01059)
 
 #### Lattice Surgery
 
@@ -124,6 +126,10 @@ error when scaling surface code from distance 3 to 5.
 - [Stim](https://github.com/quantumlib/Stim) - A fast stabilizer circuit library.
 
 - [Crumble](https://algassert.com/crumble) - Point-and-Click 2D QEC circuit builder.
+
+- [SOFT](https://github.com/haoliri0/SOFT) - A high-performance simulator for universal fault-tolerant quantum circuits.
+
+- [tsim](https://github.com/QuEraComputing/tsim) - A GPU-accelerated quantum circuit sampler for QEC with support for non-Clifford gates.
 
 #### Automation tool
 
